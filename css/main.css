@@ -1,0 +1,67 @@
+
+#camera_icon {
+    height: 50px;
+     width: 50px;
+}
+
+.navbar-nav li:hover > .dropdown-menu
+{
+    display: block;
+    margin-top: 0;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+      position: relative;
+    -webkit-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+}
+  
+li a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: tomato;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+li a:hover:after {
+    width: 100%;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.nav-item {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+#page_title {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Comic Sans MS", Comic ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: rgb(52, 58, 64);
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
