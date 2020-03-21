@@ -34,3 +34,12 @@ div p {
         margin-left: 15px;
     }
 }
+
+footer p {
+    color: white;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: rgb(52, 58, 64);
+    text-align: center;
+    margin-top: 30px;
+}
