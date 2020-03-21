@@ -1,0 +1,30 @@
+
+#page_title {
+    margin-bottom: 30px;
+}
+
+#zdjecie_z_podpisem {
+    border: solid black 4px;
+    padding: 5px;
+    font-family: "Comic Sans MS", Comic;
+}
+
+#zdjecie_z_podpisem h5 {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    color: black;
+    
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+#formularz_logowania {
+    margin-top: 30px;
+}
+
