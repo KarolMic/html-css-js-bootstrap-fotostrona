@@ -11,13 +11,17 @@ function sprawdz_haslo() {
     }
 }
 
-// Poniższy kod powoduje "Wciśnięcie" przycisku "potwierdz_haslo" w momencie, gdy użytkownik naciśnie enter
-var input = document.getElementById("haslo");
-input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("potwierdz_haslo").click();
-  }
+
+$(document).ready(function() {
+
+    $('.submit_on_enter').keydown(function(event) {
+      if (event.keyCode == 13) {
+        this.form.submit();
+        document.getElementById("potwierdz_haslo").click();
+        return false;
+      }
+    });
+  
 });
 
 function pokaz_haslo() {
