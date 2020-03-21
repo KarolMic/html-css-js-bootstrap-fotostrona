@@ -1,0 +1,36 @@
+
+div p {
+    text-indent: 80px;
+}
+
+#suknia_bukiet {
+    width: 30%;
+    margin-left: 15px;
+}
+
+#portret {
+    width: 40%;
+    margin-right: 15px;
+}
+
+#rodzinne {
+    width: 45%;
+    margin-left: 15px;
+}
+
+@media(max-width: 575px) {
+    #suknia_bukiet {
+        width: 50%;
+        margin-left: 15px;
+    }
+    
+    #portret {
+        width: 60%;
+        margin-right: 15px;
+    }
+    
+    #rodzinne {
+        width: 60%;
+        margin-left: 15px;
+    }
+}
