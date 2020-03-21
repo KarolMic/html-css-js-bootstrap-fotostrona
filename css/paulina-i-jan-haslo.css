@@ -1,0 +1,19 @@
+
+#formularz_logowania {
+    margin-bottom: 20px;
+}
+
+#naglowek_formularza{
+    background-color: cadetblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#przycisk_podpowiedz {
+    margin-bottom: 80px;
+    text-align: center;
+}
